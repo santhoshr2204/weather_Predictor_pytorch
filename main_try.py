@@ -1,5 +1,5 @@
 import torch
-from data_loader import load_data
+from data_loader_large import load_data
 from model import WeatherNN
 from train import train_model
 from utils import save_output
