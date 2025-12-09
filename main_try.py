@@ -39,6 +39,7 @@ def main():
 
         prob = pred_single.item()   # value between 0 and 1
         label = "Rainy" if prob >= 0.5 else "Sunny"
+        print(prob)
 
         print(f"\nModel output probability (Rainy): {prob:.4f}")
         print("Predicted Weather:", label)
